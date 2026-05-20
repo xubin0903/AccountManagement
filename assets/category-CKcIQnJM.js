@@ -1,0 +1,1 @@
+import{r}from"./request-BzrfLtvB.js";const s={list(e){const t=e?{type:e}:{};return r.get("/categories",{params:t})},getById(e){return r.get(`/categories/${e}`)},create(e){return r.post("/categories",e)},update(e,t){return r.put(`/categories/${e}`,t)},remove(e){return r.delete(`/categories/${e}`)}};export{s as c};

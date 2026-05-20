@@ -1,0 +1,1 @@
+import{_ as s,o as t,a,c as o}from"./index-DisG9Tpy.js";const c={},n={class:"home"};function r(_,e){return t(),a("div",n,[...e[0]||(e[0]=[o("h1",null,"欢迎使用个人记账管理系统",-1),o("p",null,"项目骨架已就绪，等待业务开发。",-1)])])}const d=s(c,[["render",r],["__scopeId","data-v-bee83668"]]);export{d as default};

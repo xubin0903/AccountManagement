@@ -1,0 +1,1 @@
+import{r as e}from"./request-BzrfLtvB.js";const s={list(r){return e.get("/records",{params:r})},getById(r){return e.get(`/records/${r}`)},create(r){return e.post("/records",r)},update(r,t){return e.put(`/records/${r}`,t)},remove(r){return e.delete(`/records/${r}`)}};export{s as r};
