@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(export JAVA_HOME=\"/c/Program Files/Java/jdk-23\")",
+      "Bash(\"/c/Users/ASUS/apache-maven-3.9.9/bin/mvn\" -f \"D:/Spring Bot 学习/AccountManagement/backend/pom.xml\" clean compile)",
+      "Bash(unzip -l \"/c/Users/ASUS/.m2/repository/com/baomidou/mybatis-plus-extension/3.5.9/mybatis-plus-extension-3.5.9.jar\")",
+      "Bash(unzip -p \"/c/Users/ASUS/.m2/repository/com/baomidou/mybatis-plus-spring-boot-autoconfigure/3.5.9/mybatis-plus-spring-boot-autoconfigure-3.5.9.jar\" \"META-INF/spring-autoconfigure-metadata.properties\")",
+      "Bash(unzip -p \"/c/Users/ASUS/.m2/repository/com/baomidou/mybatis-plus-spring-boot-autoconfigure/3.5.9/mybatis-plus-spring-boot-autoconfigure-3.5.9.jar\" \"com/baomidou/mybatisplus/autoconfigure/MybatisPlusProperties.class\")",
+      "Bash(npm run *)",
+      "Bash(sc query *)",
+      "Bash(net start *)",
+      "Bash(/c/Program Files/MySQL/MySQL Server 9.7/bin/mysql.exe *)",
+      "Bash(sc stop *)",
+      "Bash(sc start *)",
+      "Bash(\"/c/Program Files/MySQL/MySQL Server 9.7/bin/mysql.exe\" -uroot -p\"xubin200593@\")",
+      "Bash(./mvnw spring-boot:run -q)",
+      "Bash(curl -s http://localhost:8080/users)",
+      "Bash(curl *)",
+      "Bash(taskkill /F /PID 109924)"
+    ]
+  }
+}

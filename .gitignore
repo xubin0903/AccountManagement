@@ -1,0 +1,46 @@
+# ============================================
+# IDE
+# ============================================
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# ============================================
+# Java / Maven / Spring Boot
+# ============================================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.class
+*.jar
+*.war
+*.log
+*.tmp
+
+# ============================================
+# Node / Vue / Vite
+# ============================================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env.local
+frontend/.env.*.local
+*.local
+
+# ============================================
+# OS
+# ============================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# ============================================
+# Secrets & Config
+# ============================================
+*.env
+.env
+application-local.yml
+application-dev.yml
