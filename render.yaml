@@ -4,8 +4,6 @@ services:
   - type: web
     name: account-management-api
     runtime: docker
-    dockerContext: backend
-    dockerfilePath: Dockerfile
     plan: free
     healthCheckPath: /users
     envVars:
