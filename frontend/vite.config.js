@@ -5,7 +5,8 @@ import Components from 'unplugin-vue-components/vite'
 import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 import path from 'path'
 
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
+  base: mode === 'production' ? '/AccountManagement/' : '/',
   plugins: [
     vue(),
     AutoImport({
@@ -30,4 +31,4 @@ export default defineConfig({
       }
     }
   }
-})
+}))

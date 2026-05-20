@@ -16,7 +16,10 @@
       "Bash(./mvnw spring-boot:run -q)",
       "Bash(curl -s http://localhost:8080/users)",
       "Bash(curl *)",
-      "Bash(taskkill /F /PID 109924)"
+      "Bash(taskkill /F /PID 109924)",
+      "Bash(cd \"D:\\\\\\\\Spring Bot 学习\\\\\\\\AccountManagement\\\\\\\\frontend\")",
+      "Bash(git checkout *)",
+      "Bash(git add *)"
     ]
   }
 }
