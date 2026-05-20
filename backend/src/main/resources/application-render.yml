@@ -1,4 +1,7 @@
 # Render 免费部署环境配置 — H2 MySQL 兼容模式
+server:
+  port: ${PORT:8080}
+
 spring:
   datasource:
     url: jdbc:h2:file:./data/account_management;MODE=MySQL;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
