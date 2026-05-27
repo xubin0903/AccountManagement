@@ -53,7 +53,7 @@ fi
 echo ""
 echo "[3/5] 构建前端 ..."
 cd "$PROJECT_ROOT/frontend"
-npm install --silent 2>/dev/null || npm install
+rm -rf node_modules package-lock.json 2>/dev/null; npm install
 npx vite build --mode ecs
 echo "  ✓ 前端构建完成 → frontend/dist/"
 
